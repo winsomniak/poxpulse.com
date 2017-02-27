@@ -1,0 +1,55 @@
+h2 {
+        text-decoration: underline;
+}
+
+div#advanced_search {
+        overflow: auto;
+		font-size: 12px
+}
+
+div#advanced_search > div {
+        float: right;
+        margin-top: 15px;
+}
+
+div#advanced_search > div > div {
+        float: right;
+        margin: 10px;
+		margin-right: 50px;
+}
+
+div#advanced_search  table tr td input#rune
+{
+	width: 100%;
+	height: 1.5em;
+}
+
+div#advanced_search > div > div#block_ad
+{
+	margin-right: 10px;
+}
+
+div#expansion_header {
+        text-align: center;
+}
+
+
+
+a#clearRarity, a#clearType {
+	float: right;
+}
+
+div#advanced_search table th {
+	padding-right: 1em;
+}
+
+div#advanced_search table th, div#advanced_search table td
+{
+	padding: .2em;
+}
+
+div#advanced_search table td input:submit{
+	float: right;
+}
+
+

@@ -1,0 +1,269 @@
+div#quick_facts {
+	width: 300px;
+	min-height: 140px;
+	margin: 10px 10px 10px 10px;
+	background-color: #191919;
+	font-size: 12px;
+}
+
+div#quick_facts h3 {
+	text-align: center;
+	padding-top: 5px;
+}
+/* Rune Display */
+
+div#rune_container {
+	position: relative;
+	width: 630px;
+	height: 390px;
+}
+div#rune {
+	width: 310px;
+	height: 390px;
+	position: absolute;
+}
+
+div#rune img {
+	z-index: 0;
+	position: absolute;
+	top: 30px;
+	left: 20px;
+}
+
+div#rune div.rarity {
+	position: absolute;
+	width: 310px;
+	height: 390px;
+	z-index: 1;
+}
+
+div#rune div.frame {
+	z-index: 2;
+	position: absolute;
+	width: 310px;
+	height: 390px;
+}
+
+div#rune div.stats {
+	z-index: 3;
+	position: absolute;
+	width: 310px;
+	height: 390px;
+	background-image: url(/images/large/frame/stats_310x390.gif); /* test server */
+	font: bold 18px Arial;
+	text-align: center;
+}
+
+div#rune div.stats div {
+	position: absolute;
+	left: 51px;
+	top: 367px;
+	width: 36px;
+	background: inherit;
+}
+
+div#rune div.stats div + div {
+	left: 95px;
+}
+
+div#rune div.stats div + div + div {
+	left: 136px;
+}
+
+div#rune div.stats div + div + div + div {
+	left: 181px;
+}
+
+div#rune div.stats div + div + div + div + div {
+	left: 224px;
+}
+
+
+div#rune div.nora {
+	position: absolute;
+	z-index: 4;
+	left:251px;
+	top: 12px;
+	font:bold 26px Arial;
+	text-align: center;
+	width: 50px;
+
+}
+div#rune div.name {
+	position: absolute;
+	z-index: 4;
+	top:12px;
+	left:49px;
+	font:bold 18px "Times New Roman";
+	text-align:center;
+	width:201px;
+}
+
+
+div#rune_details {
+	width: 310px;
+	height: 390px;
+	left: 320px;
+	position: relative;
+}
+
+div#rune_details div.background {
+	z-index: 1;
+	position: absolute;
+	width: 310px;
+	height: 390px;
+}
+div#rune_details div.frame {
+	z-index: 2;
+	position: absolute;
+	width: 310px;
+	height: 390px;
+}
+
+div#rune_details div.nora {
+	position: absolute;
+	z-index: 4;
+	left:251px;
+	top: 12px;
+	font:bold 26px Arial;
+	text-align: center;
+	width: 50px;
+
+}
+
+div#rune_details div.name {
+	position: absolute;
+	z-index: 4;
+	top:12px;
+	left:49px;
+	font: bold 18px "Times New Roman";
+	text-align:center;
+	width:201px;
+}
+
+div#rune_details div.quote {
+	position: absolute;
+	z-index: 4;
+	top: 75px;
+	left:55px;
+	font: normal 11px "Arial";
+	text-align:left;
+	width:201px;
+	line-height: 1.1;
+        overflow: auto;
+        height: 230px;
+}
+
+div#rune_details div.champ_quote {
+	position: absolute;
+	z-index: 4;
+	top: 45px;
+	left:55px;
+	font: normal 11px "Arial";
+	text-align:left;
+	width:201px;
+	line-height: 1.1;
+}
+
+div#rune_details hr {
+	margin: 1em auto;
+}
+div#rune_details div.description {
+	text-align: left;
+	font: bold 11px "Arial";
+        overflow: auto;
+}
+
+div#rune_details div.line {
+	width: 230px;
+	height: 1px;
+	position: absolute;
+	z-index: 4;
+	left: 40px;
+	top: 175px;
+	background-color: #fff;
+}
+
+div#rune_details div.races {
+	width: 160px;
+	position: absolute;
+	z-index: 5;
+	left: 30px;
+	top: 180px;
+	font: bold 10px "Arial";
+	text-align: left;
+}
+div#rune_details div.classes {
+	width: 115px;
+	position: absolute;
+	z-index: 5;
+	left: 160px;
+	top: 180px;
+	font: bold 10px "Arial";
+	text-align: right;
+}
+div#rune_details div.abilities {
+	width: 250px;
+	position: absolute;
+	z-index: 4;
+	top: 200px;
+	left: 30px;
+	text-align: center;
+	font: bold 11px "Arial";
+	overflow: auto;
+	height: 115px;
+	line-height: 1em;
+}
+
+div#rune_details div.upgrade_abilities {
+	width: 250px;
+    height: 75px;
+	position: absolute;
+	z-index: 5;
+	top: 317px;
+	left: 42px;
+	text-align: center;
+	font: bold 11px "Arial";
+	background-image: url(/images/large/frame/upgrade_abilities_224x71.gif);
+	background-repeat: no-repeat;
+}
+
+div#rune_details div.upgrade_abilities img {
+        border: none;
+}
+
+div#rune_details div.upgrade_abilities div {
+	position: absolute;
+	width: 44px;
+	left: 5px;
+	top: 3px;
+}
+
+div#rune_details div.upgrade_abilities div + div {
+	left: 62px;
+}
+
+div#rune_details div.upgrade_abilities div + div + div {
+	left: 118px;
+}
+
+div#rune_details div.upgrade_abilities div + div + div + div {
+	left: 175px;
+}
+
+div#rune_details a {
+	color: #fff;
+}
+
+div#rune_details a:link { text-decoration: none;}
+div#rune_details a:visited { text-decoration: none;}
+div#rune_details a:hover { text-decoration: underline;}
+div#rune_details a:active { text-decoration: underline;}
+
+.runegreen {
+    color: #C3DB5D;
+}
+
+div#rune_details span a {
+	color: #C3DB5D;
+}

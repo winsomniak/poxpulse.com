@@ -1,0 +1,66 @@
+.dataTable {
+	width: 100%;
+}
+
+.dataTable td {
+	padding: .5em;
+	
+}
+
+.dataTable td img{
+	display: inline;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	
+}
+
+.dataTables_wrapper .ui-toolbar {
+	padding: .5em;
+}
+
+.dataTables_info {
+	width: 50%;
+	float: left;
+}
+
+
+.dataTables_filter {
+	float: right;
+}
+
+.dataTables_heading {
+	padding: .5em;
+}
+
+tr.odd {
+	background-color: #222222;
+}
+
+tr.even {
+	background-color: #191919;
+}
+
+/*
+ * Sort arrow icon positioning
+ */
+table thead th div.DataTables_sort_wrapper {
+	position: relative;
+	padding-right: 20px;
+}
+
+table thead th div.DataTables_sort_wrapper span {
+	position: absolute;
+	top: 50%;
+	margin-top: -8px;
+	right: 0;
+}
+
+
+.css_right {
+	float: right;
+}
+
+.ui-helper-clearfix {
+	clear: both;
+}

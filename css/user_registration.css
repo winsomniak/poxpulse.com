@@ -1,0 +1,10 @@
+table {
+	background-color: #191919;
+	text-align: left;
+	border-spacing: 1em;
+}
+
+div#rules {
+	width: 600px;
+	margin: 0 0 2em 0;
+}

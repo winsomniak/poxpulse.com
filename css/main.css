@@ -1,0 +1,241 @@
+/* New */
+
+/* Global */
+
+body {
+	background-color: #000;
+	font-family: Verdana, Geneva, sans-serif;
+	color: #FFFFFF;
+	position: relative;
+	font-size: 12px;
+}
+
+img {
+	border: none;
+}
+
+a:link { color: #1486b3;}
+a:visited { color: #1486b3;}
+a:hover { color: #0E5F80;}
+a:active { color: #0E5F80;}
+
+hr {
+	color: #FFF;
+}
+
+div#footer {
+	.font-size: 14px;
+	.padding: 10px;
+	display: block;
+	height: 31px;
+	background: #444444 url(/jquery_ui_themes/dark-hive-sandpaper/images/ui-bg_highlight-soft_44_444444_1x100.png) 50% 50% repeat-x;
+}
+
+
+
+div#bottom_nav {
+        text-align: center;
+        margin: 20px 0;
+}
+
+div#bottom_nav a {
+        margin: 0 15px;
+}
+
+div#logo img {
+        border: none;
+}
+
+div#logo a {
+        border: none;
+        color: transparent;
+}
+div#container {
+	margin: 0 auto;
+	width: 96%;
+	min-width: 980px;
+        max-width: 1260px;
+	position: relative;
+}
+
+div#content {
+    position: relative;
+	padding: 10px;
+    min-height: 450px;
+	clear: both;
+}
+div#content h1 {
+	margin-top: 0px;
+	font-size: 20px;
+        display: block;
+        overflow: hidden;
+	text-decoration: underline;
+	line-height: 1.5em;
+        padding-bottom: 3px;
+}
+
+div#content h2 {
+        font-size: 16px;
+}
+
+
+
+div#main {
+	background-color: #0C0B0A;
+	clear: both;
+}
+
+div#right_col {
+	float: right;
+	height: 390px;
+	margin-top: -20px;
+}
+
+div#block_ad {
+	width: 300px;
+	height: 250px;
+	margin: 0 10px 0px 10px;
+	background-color: #191919;
+}
+
+div#banner_ad {
+	height: 90px;
+	width: 728px;
+	margin: 1em auto;
+	background-color: #191919;
+}
+
+div#copyright {
+        font-size: 9px;
+        font-family: verdana;
+        width: 600px;
+        margin: 10px auto;
+}
+
+div#faction_header {
+        text-align: center;
+}
+
+div#faction_header h1 {
+        text-decoration: none;
+        
+}
+
+div#advanced_search_link {
+	position: absolute;
+	right: 20px;
+}
+
+.warning {
+	color: #911;
+	font-weight: bold;
+}
+
+#tabs {
+	margin: 5em 10px 3em 10px;
+}
+
+#tabs #comments {
+	min-height: 150px;
+}
+
+#tabs #comments > a {
+	margin-left: 10px;
+}
+
+#tabs #comments div {
+	background-color: #222;
+	padding: 1em;
+	margin: .5em;
+}
+#tabs #comments div p:first-child {
+	text-align: left;
+	font-style: italic;
+	font-size: .8em;
+	margin: 0;
+	padding: 0;
+	color: #bbbbbb;
+}
+
+div#greeting {
+	float: right;
+	font-size: .8em;
+}
+
+#dialog {
+	text-align: center;
+}
+
+#dialog input {
+	margin-top: .5em;
+}
+
+#linkto p {
+	background-color: #FFF;
+}
+
+div#bottom_icons {
+	text-align: center;
+	font-size: .8em;
+	color: #999999;
+	position: absolute;
+	margin-top: .5em;
+	right: .5em;
+}
+
+div#bottom_icons a{
+	color: #999999;
+}
+
+div#bottom_banner {
+	text-align: center;
+}
+
+/* CSS 3.0 */
+
+table  td  img {
+        border-radius: 8px; 
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+}
+div#quick_facts, div#item_details div, div#comments div {
+        border-radius: 8px; 
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+}
+
+div#footer {
+	border-radius: 0px 0px 40px 40px; 
+	-moz-border-radius: 0px 0px 24px 24px;
+	-webkit-border-radius: 0px 0px 24px 24px;
+}
+div#main, div#container {
+	border-radius: 40px 40px 40px 40px; 
+	-moz-border-radius: 40px 40px 40px 40px;
+	-webkit-border-radius: 40px 40px 40px 40px;
+}
+
+/* JQuery UI Combobox */
+.ui-combobox {
+		position: relative;
+		display: inline-block;
+	}
+	.ui-combobox-toggle {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		margin-left: -1px;
+		padding: 0;
+		clear: both;
+		/* adjust styles for IE 6/7 */
+		*height: 1.7em;
+		*top: 0.1em;
+	}
+	.ui-combobox-input {
+		margin: 0;
+		padding: 0.3em;
+	}
+	
+	.small-combobox {
+		width: 2.3em;
+	}

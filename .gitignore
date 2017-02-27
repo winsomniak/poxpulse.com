@@ -1,5 +1,5 @@
 */blog
-*/config
+*/config/production
 */sitemap.xml
 */sitemap.txt
 .ftpquota
@@ -10,7 +10,7 @@ license.txt
 */backup
 */backups
 */xampp
-
+*/.httaccess
 */logs
 */logs/log-*.php
 !*/logs/index.html

@@ -1,0 +1,24 @@
+div#expansion_header {
+        text-align: center;
+}
+
+div#runes {
+        overflow: auto;
+        margin: 105px 0px;
+		clear: both;
+}
+
+div#runes > div {
+        width: 20%;
+        float: left;
+        overflow: hidden;
+}
+
+div#block_ad {
+	position: relative;
+	float: right;
+	top: 35px;
+	right: 10px;
+
+}
+

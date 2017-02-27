@@ -1,0 +1,29 @@
+div#left_col {
+        width: 650px;
+        overflow: auto;
+	min-height: 300px;
+}
+
+div#ability {
+        width: 590px;
+
+}
+
+
+div#ability_descriptions {
+        float: right;
+}
+div#ability_descriptions div {
+        margin-bottom: 10px;
+        background-color: #222;
+        width: 520px;
+        padding: 8px;
+        border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+}
+
+div#champions_with_ability {
+        width: 95%;
+	margin: 0 auto;
+}

@@ -1,0 +1,33 @@
+div#faction_header {
+        text-align: center;
+	max-width: 600px;
+	overflow: auto;
+	padding: 1em;
+}
+
+div#faction_header img {
+	float: left;
+	margin-right: 1em;
+}
+
+div#faction_header h1 {
+	text-align: left;
+}
+
+div#runes {
+        overflow: auto;
+        margin: 50px 0px;
+}
+
+div#runes > div {
+        width: 20%;
+        float: left;
+        overflow: hidden;
+}
+
+div#block_ad {
+	position: absolute;
+	top: 35px;
+	right: 10px;
+
+}

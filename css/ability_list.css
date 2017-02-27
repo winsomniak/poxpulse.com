@@ -1,0 +1,10 @@
+
+div.col {
+	width: 25%;
+	float: left;
+}
+
+div#abilities {
+	margin: 2em;
+	overflow: auto;
+}

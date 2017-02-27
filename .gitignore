@@ -1,0 +1,16 @@
+*/blog
+*/config
+*/sitemap.xml
+*/sitemap.txt
+.ftpquota
+error_log
+license.txt
+*/cache
+*/cgi-bin
+*/backup
+*/backups
+*/xampp
+
+*/logs
+*/logs/log-*.php
+!*/logs/index.html
